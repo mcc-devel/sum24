@@ -11,7 +11,7 @@ if __name__ == '__main__':
     frame = Tk()
     frame.geometry('700x600')
     ln1 = Frame(frame)
-    lab1 = Label(ln1, text = 'Numbers, use a,b,c format')
+    lab1 = Label(ln1, text = 'Numbers, use a,b,c,... format')
     inp1 = Entry(ln1)
     ln2 = Frame(frame)
     lab2 = Label(ln2, text = 'Result')
